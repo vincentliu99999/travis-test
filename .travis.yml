@@ -1,0 +1,8 @@
+nguage: node_js
+node_js:
+  - "iojs"
+  - "7"
+before_script:
+  - echo before script
+script:
+  - echo script
