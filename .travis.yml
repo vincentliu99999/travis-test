@@ -12,9 +12,13 @@ node_js:
 addons:
   firefox: "latest"
 
+install: 
+ - npm install --save-dev jest
+
 before_script:
   - echo "Running before_script against $(node -v) ..."
 
 script:
   - echo "Running script against $(node -v) ..."
   - phantomjs lib/test.js
+  - test jest
