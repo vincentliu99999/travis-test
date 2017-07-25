@@ -21,4 +21,4 @@ before_script:
 script:
   - echo "Running script against $(node -v) ..."
   - phantomjs lib/test.js
-  - test jest
+  - test jest lib/sum.js

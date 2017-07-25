@@ -1,0 +1,26 @@
+{
+  "name": "travis-test",
+  "version": "1.0.0",
+  "description": "travis test",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincentliu99999/travis-test.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vincentliu99999/travis-test/issues"
+  },
+  "homepage": "https://github.com/vincentliu99999/travis-test#readme",
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "phantom": "^4.0.5"
+  },
+  "jest": {
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(tsx?|jsx?)$"
+  }
+}
