@@ -1,3 +1,6 @@
+git:
+  quiet: true
+
 language: node_js
 sudo: required
 dist: trusty
